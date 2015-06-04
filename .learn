@@ -1,3 +1,7 @@
 languages:
   - objc
 tags:
+  - advanced
+  - collections
+  - strings
+  - arrays
