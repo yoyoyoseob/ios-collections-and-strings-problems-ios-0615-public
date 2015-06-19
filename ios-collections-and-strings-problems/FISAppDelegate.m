@@ -7,6 +7,11 @@
 //
 
 #import "FISAppDelegate.h"
+#import "NSString+FISStringRepeater.h"
+#import "NSArray+FISArrayFramer.h"
+#import "NSString+FISPigLatinMaker.h"
+#import "NSArray+FISArrayCombiner.h"
+#import "NSArray+FISIntegerSplitter.h"
 
 @interface FISAppDelegate ()
 
@@ -16,9 +21,27 @@
 @implementation FISAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NSArray *sentenceArray = @[@"Hello", @"New", @"York", @"and", @"Brooklyn"];
+    [NSArray stringFramer:sentenceArray];
+    
+    NSString *sentence = @"The quick brown fox";
+    [NSString makePigLatin:sentence];
+    
+    NSArray *firstArray = @[@"a", @"b", @"c"];
+    NSArray *secondArray = @[@1, @2, @3];
+    [NSArray combineArrayOne:firstArray withArrayTwo:secondArray];
+    
+    NSInteger number = 12045;
+    [NSArray integerSplitter:number];
+    
+    NSArray *testArray = @[@1, @2, @3, @4, @5, @6];
+    NSArray *reversedArray = [[testArray reverseObjectEnumerator] allObjects];
+    NSLog(@"%@", reversedArray);
+    
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

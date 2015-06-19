@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSString+FISStringRepeater.h"
 
 @interface FISAppDelegate : UIResponder <UIApplicationDelegate>
 

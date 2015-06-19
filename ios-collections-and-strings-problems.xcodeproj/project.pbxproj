@@ -10,9 +10,13 @@
 		0789857865B4D24D0B32EFC5 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B523025CE7B6687D214CB7 /* FISAppDelegate.m */; };
 		28A9785A03C375671CF3096F /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 76E6BE0B04E13C96AE18D7E6 /* LaunchScreen.xib */; };
 		6A35CDA73498A5205687F20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E91A786DA2218063361B713 /* Foundation.framework */; };
+		714DBD2A1B34619800D73090 /* NSArray+FISArrayFramer.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DBD291B34619800D73090 /* NSArray+FISArrayFramer.m */; };
+		714DBD2E1B348A9600D73090 /* NSString+FISPigLatinMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DBD2D1B348A9600D73090 /* NSString+FISPigLatinMaker.m */; };
+		714DBD311B34911D00D73090 /* NSArray+FISArrayCombiner.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DBD301B34911D00D73090 /* NSArray+FISArrayCombiner.m */; };
+		714DBD341B34A90C00D73090 /* NSArray+FISIntegerSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DBD331B34A90C00D73090 /* NSArray+FISIntegerSplitter.m */; };
+		71FA85181B2A046100E6456A /* NSString+FISStringRepeater.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FA85171B2A046100E6456A /* NSString+FISStringRepeater.m */; };
 		7CCEBA68207A8F8CA0D3025C /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F3D872064AC86D1A5CDD9 /* libPods-unit_tests.a */; };
 		915F8BBBB731E6D8178E0308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE580214B86D58CA0255F54 /* main.m */; };
-		BC4E8D02A97AE314E3C29F78 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 6A0865F970058F19CBDE0DE7 /* Main.storyboard */; };
 		F0007968464D04C37286CF57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022A997D110D4229F652CAA5 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -32,8 +36,17 @@
 		3F5F3D872064AC86D1A5CDD9 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F766AF74EFF6F12E750CC0 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		5855FC39E03CFB314DB2C0CE /* ios-collections-and-strings-problems-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ios-collections-and-strings-problems-Info.plist"; sourceTree = "<group>"; };
-		6A0865F970058F19CBDE0DE7 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6C7C3828E89DF44A38A2E07A /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		714DBD281B34619800D73090 /* NSArray+FISArrayFramer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+FISArrayFramer.h"; path = "ios-collections-and-strings-problems/NSArray+FISArrayFramer.h"; sourceTree = "<group>"; };
+		714DBD291B34619800D73090 /* NSArray+FISArrayFramer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FISArrayFramer.m"; path = "ios-collections-and-strings-problems/NSArray+FISArrayFramer.m"; sourceTree = "<group>"; };
+		714DBD2C1B348A9600D73090 /* NSString+FISPigLatinMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FISPigLatinMaker.h"; sourceTree = "<group>"; };
+		714DBD2D1B348A9600D73090 /* NSString+FISPigLatinMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FISPigLatinMaker.m"; sourceTree = "<group>"; };
+		714DBD2F1B34911D00D73090 /* NSArray+FISArrayCombiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FISArrayCombiner.h"; sourceTree = "<group>"; };
+		714DBD301B34911D00D73090 /* NSArray+FISArrayCombiner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FISArrayCombiner.m"; sourceTree = "<group>"; };
+		714DBD321B34A90C00D73090 /* NSArray+FISIntegerSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+FISIntegerSplitter.h"; path = "ios-collections-and-strings-problems/NSArray+FISIntegerSplitter.h"; sourceTree = "<group>"; };
+		714DBD331B34A90C00D73090 /* NSArray+FISIntegerSplitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FISIntegerSplitter.m"; path = "ios-collections-and-strings-problems/NSArray+FISIntegerSplitter.m"; sourceTree = "<group>"; };
+		71FA85161B2A046100E6456A /* NSString+FISStringRepeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+FISStringRepeater.h"; path = "ios-collections-and-strings-problems/NSString+FISStringRepeater.h"; sourceTree = "<group>"; };
+		71FA85171B2A046100E6456A /* NSString+FISStringRepeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+FISStringRepeater.m"; path = "ios-collections-and-strings-problems/NSString+FISStringRepeater.m"; sourceTree = "<group>"; };
 		76E6BE0B04E13C96AE18D7E6 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		7A563C472D9C431ECC6DAA3C /* ios-collections-and-strings-problems-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-collections-and-strings-problems-Prefix.pch"; sourceTree = "<group>"; };
 		8C8BA4BDFD1F5D586FA9E961 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +122,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		714DBD2B1B3461B300D73090 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				714DBD321B34A90C00D73090 /* NSArray+FISIntegerSplitter.h */,
+				714DBD331B34A90C00D73090 /* NSArray+FISIntegerSplitter.m */,
+				714DBD281B34619800D73090 /* NSArray+FISArrayFramer.h */,
+				714DBD291B34619800D73090 /* NSArray+FISArrayFramer.m */,
+				71FA85161B2A046100E6456A /* NSString+FISStringRepeater.h */,
+				71FA85171B2A046100E6456A /* NSString+FISStringRepeater.m */,
+				714DBD2C1B348A9600D73090 /* NSString+FISPigLatinMaker.h */,
+				714DBD2D1B348A9600D73090 /* NSString+FISPigLatinMaker.m */,
+				714DBD2F1B34911D00D73090 /* NSArray+FISArrayCombiner.h */,
+				714DBD301B34911D00D73090 /* NSArray+FISArrayCombiner.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		72839D6892336512E2854D61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +163,6 @@
 			children = (
 				D91A685363B9037BFBDD5F6F /* FISAppDelegate.h */,
 				C2B523025CE7B6687D214CB7 /* FISAppDelegate.m */,
-				6A0865F970058F19CBDE0DE7 /* Main.storyboard */,
 				BFA97D4562F6E0C667972CF7 /* Resources */,
 			);
 			path = "ios-collections-and-strings-problems";
@@ -142,6 +171,7 @@
 		B4D8057A278AD9A4ADEDA363 = {
 			isa = PBXGroup;
 			children = (
+				714DBD2B1B3461B300D73090 /* Categories */,
 				ACCDC4228324E94F5465D70D /* ios-collections-and-strings-problems */,
 				40DE011EE55175539DC592AF /* UnitTests */,
 				3C50A7EFE7B85799B378D6B1 /* Frameworks */,
@@ -302,9 +332,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0789857865B4D24D0B32EFC5 /* FISAppDelegate.m in Sources */,
-				BC4E8D02A97AE314E3C29F78 /* Main.storyboard in Sources */,
+				714DBD341B34A90C00D73090 /* NSArray+FISIntegerSplitter.m in Sources */,
+				714DBD2E1B348A9600D73090 /* NSString+FISPigLatinMaker.m in Sources */,
+				714DBD311B34911D00D73090 /* NSArray+FISArrayCombiner.m in Sources */,
+				71FA85181B2A046100E6456A /* NSString+FISStringRepeater.m in Sources */,
 				28A9785A03C375671CF3096F /* LaunchScreen.xib in Sources */,
 				915F8BBBB731E6D8178E0308 /* main.m in Sources */,
+				714DBD2A1B34619800D73090 /* NSArray+FISArrayFramer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
